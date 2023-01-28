@@ -1,6 +1,6 @@
 import random
 while True:
-    dice = input("Roll the dice(y/n) ")
+    dice = input("Roll the dice(y/n): ")
     if dice == "y":
         n = random.randint(1,6)
         print("Value on the dice is " + str(n))
